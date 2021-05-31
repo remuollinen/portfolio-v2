@@ -1,3 +1,15 @@
+# PORTFOLIO V2
+
+## New personal developer portfolio made with React
+
+This is my new personal developer portfolio website showcasing my current skills and projects.
+
+## What I learned and used during this project
+
+- Making card-like components of individual projects (from a separate project-data file)
+
+# DEFAULT
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

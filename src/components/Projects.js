@@ -7,6 +7,7 @@ function Projects() {
     <section>
       <h2 className="projects__header">Projects</h2>
       <div className="projects__container">
+        {/* Map through project data file and renders out each project */}
         {ProjectData.map((project) => {
           return <ProjectCard key={project.id} project={project} />;
         })}
