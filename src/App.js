@@ -1,5 +1,6 @@
 import "./App.css";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <p>an aspiring web developer based in Helsinki, Finland</p>
       </div>
       <Projects />
+      <Footer />
     </div>
   );
 }
