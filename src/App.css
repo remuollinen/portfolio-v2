@@ -29,6 +29,9 @@ body {
 
 .intro {
   height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   color: white;
   margin-top: 6%;
@@ -50,21 +53,48 @@ body {
 section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   text-align: center;
   margin: 10%;
   width: 100%;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
-/* PROJECTS
- */
-
-.projects__header {
+section h2 {
   color: white;
   font-size: 4rem;
   margin: 50px 0;
 }
+
+/* ABOUT
+ */
+
+.about__text {
+  color: white;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  padding: 10px;
+  margin: 0 200px 50px 200px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+}
+
+.tech {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+}
+
+.tech p {
+  font-size: 2rem;
+  color: rgb(255, 200, 0);
+}
+
+/* PROJECTS
+ */
 
 .projects__container {
   display: flex;
@@ -131,6 +161,33 @@ section {
   color: #111;
 }
 
+/* CONTACT
+*/
+
+.contact__text {
+  color: white;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.contact__link {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 20px;
+  margin: 20px;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.contact__link:hover {
+  background-color: rgb(255, 200, 0);
+  color: #111;
+}
 /* FOOTER
 */
 
@@ -154,13 +211,12 @@ section {
 }
 
 #github-icon:hover {
-  color: #bd2c00;
+  /* color: #bd2c00; */
+  color: rgb(255, 200, 0);
 }
 #linkedin-icon:hover {
-  color: #2867b2;
-}
-#email-icon:hover {
-  color: #1fbd00;
+  /* color: #2867b2; */
+  color: rgb(255, 200, 0);
 }
 
 @media screen and (max-width: 700px) {

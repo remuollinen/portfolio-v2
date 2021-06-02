@@ -1,6 +1,8 @@
 import "./App.css";
+import About from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
         </h1>
         <p>an aspiring web developer based in Helsinki, Finland</p>
       </div>
+      <About />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );

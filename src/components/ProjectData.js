@@ -35,7 +35,7 @@ const ProjectData = [
     id: 5,
     title: "Portfolio v1",
     thumb: "./images/portfolio-v1-thumb.png",
-    url: "https://remuollinen.netlify.app",
+    url: "https://remuv1.netlify.app/",
     code: "https://github.com/remuollinen/portfolio",
     description: "My first portfolio website",
   },

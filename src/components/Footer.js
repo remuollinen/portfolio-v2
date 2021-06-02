@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 function Footer() {
   return (
@@ -19,9 +19,6 @@ function Footer() {
           rel="noreferrer"
         >
           <AiFillLinkedin className="icon" id="linkedin-icon" />
-        </a>
-        <a href="mailto:remu.ollinen@gmail.com">
-          <AiOutlineMail className="icon" id="email-icon" />
         </a>
       </div>
     </div>
