@@ -6,7 +6,10 @@ This is my new personal developer portfolio website showcasing my current skills
 
 ## What I learned and used during this project
 
-- Making card-like components of individual projects (from a separate project-data file)
+- Making card-like components of individual projects (from a separate project-data file).
+- Used AOS library to add scroll animations to the page.
+
+<----------------------------------------------------------------------------------------------------------------------->
 
 # DEFAULT
 

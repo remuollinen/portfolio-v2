@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <section>
+    <section data-aos="fade-up">
       <h2 className="about__header">About me</h2>
       <p className="about__text">
         Not long after graduating as a Master of Economics and Business

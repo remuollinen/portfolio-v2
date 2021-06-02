@@ -4,7 +4,7 @@ import ProjectData from "./ProjectData";
 
 function Projects() {
   return (
-    <section>
+    <section data-aos="fade-up">
       <h2 className="projects__header">Projects</h2>
       <div className="projects__container">
         {/* Map through project data file and renders out each project */}

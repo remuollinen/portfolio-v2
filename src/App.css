@@ -28,7 +28,7 @@ body {
  */
 
 .intro {
-  height: 75vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,7 +57,7 @@ section {
   text-align: center;
   margin: 10%;
   width: 100%;
-  min-height: 80vh;
+  /* min-height: 80vh; */
 }
 
 section h2 {
@@ -226,5 +226,31 @@ section h2 {
 
   .intro {
     margin-top: 10%;
+    margin-bottom: 30%;
+  }
+
+  .about__text {
+    margin: 10px;
+  }
+
+  .tech {
+    width: auto;
+    flex-direction: column;
+  }
+
+  .tech p {
+    margin: 10px;
+  }
+
+  .projects__container {
+    margin: 10px;
+  }
+
+  .project__card {
+    width: 90%;
+  }
+
+  .contact__text {
+    margin: 10px;
   }
 }

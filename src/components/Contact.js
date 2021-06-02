@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <section>
+    <section data-aos="fade-up">
       <h2>Contact</h2>
       <p className="contact__text">
         If you were left craving for more, feel free to say hello!
