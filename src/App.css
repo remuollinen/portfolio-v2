@@ -28,7 +28,7 @@ body {
  */
 
 .intro {
-  height: 50vh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,7 +57,7 @@ section {
   text-align: center;
   margin: 10%;
   width: 100%;
-  /* min-height: 80vh; */
+  min-height: 50vh;
 }
 
 section h2 {
@@ -222,11 +222,17 @@ section h2 {
 @media screen and (max-width: 700px) {
   body {
     background-position-x: center;
+    background-size: 150% 100%;
+    overflow-x: hidden;
   }
 
   .intro {
-    margin-top: 10%;
-    margin-bottom: 30%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
+
+  .intro p {
+    margin: 10px;
   }
 
   .about__text {
@@ -240,6 +246,7 @@ section h2 {
 
   .tech p {
     margin: 10px;
+    font-size: 1.5rem;
   }
 
   .projects__container {
@@ -248,9 +255,26 @@ section h2 {
 
   .project__card {
     width: 90%;
+    height: auto;
+  }
+
+  .project__links {
+    margin-top: 40px;
   }
 
   .contact__text {
     margin: 10px;
+  }
+
+  .footer {
+    flex-direction: column-reverse;
+    height: 30vh;
+    justify-content: space-evenly;
+  }
+
+  .icon {
+    margin: 1.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
   }
 }
