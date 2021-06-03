@@ -1,7 +1,7 @@
 const ProjectData = [
   {
     id: 1,
-    title: "Joel N'Gawé",
+    title: "JNG Photography (Draft)",
     thumb: "./images/jng-thumb.png",
     url: "https://jng.netlify.app",
     code: "https://github.com/remuollinen/jng-photo",
