@@ -222,7 +222,7 @@ section h2 {
 @media screen and (max-width: 700px) {
   body {
     background-image: url(./portfolio-img-vertical.jpg);
-    background-size: 100vh;
+    background-size: 100vw 100vh;
     overflow-x: hidden;
   }
 
